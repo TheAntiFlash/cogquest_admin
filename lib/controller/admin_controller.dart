@@ -66,40 +66,50 @@ class AdminController extends GetxController {
   /* Covid Experience Headers */
     "Has Had Covid 19" : "covid_experience.covid",
     "Time Since Diagnosis" : "covid_experience.duration",
-    "Covid Experience in First 4 Weeks" : "covid_experience.first4weeks",
+    //"Covid Experience in First 4 Weeks" : "covid_experience.first4weeks",
     "Took PCR Test" : "covid_experience.pcrTest",
     "PCR Test Result" : "covid_experience.results",
     "Did Not Take PCR - How Person Knew They Had Covid-19" : "covid_experience.pcrTestDetails",
-    "Covid Experience After First 4 Weeks" : "covid_experience.week4Experience",
+    "Covid Experience" : "covid_experience.coivdExp",
+    "is Vaccinated" : "covid_experience.vaccinated",
+    "vaccination Period" : "covid_experience.vaccinationPeriod",
+    //"Covid Experience After First 4 Weeks" : "covid_experience.week4Experience",
 
   /* Initial Illness Symptom */
-   "First 4 Weeks Symptom: Abdominal Pain" : "symptoms_initial_illness.abdominalPain",
-   "First 4 Weeks Symptom: Blurred Vision" : "symptoms_initial_illness.blurredVision",
-   "First 4 Weeks Symptom: Body Pain" : "symptoms_initial_illness.bodyPain",
-   "First 4 Weeks Symptom: Breathing Issues" : "symptoms_initial_illness.breathingIssues" ,
-   "First 4 Weeks Symptom: Chest Pain" : "symptoms_initial_illness.chestPain",
-   "First 4 Weeks Symptom: Confusion" : "symptoms_initial_illness.confusion",
-   "First 4 Weeks Symptom: Cough" : "symptoms_initial_illness.cough",
-   "First 4 Weeks Symptom: Depression Anxiety" : "symptoms_initial_illness.depressionAnxiety",
-   "First 4 Weeks Symptom: Diarrhea" : "symptoms_initial_illness.diarrhea",
-   "First 4 Weeks Symptom: Difficult Sleeping" : "symptoms_initial_illness.difficultSleepy",
-   "First 4 Weeks Symptom: Fatigue" : "symptoms_initial_illness.fatigue",
-   "First 4 Weeks Symptom: Fever" : "symptoms_initial_illness.fever",
-   "First 4 Weeks Symptom: Hallucinations" : "symptoms_initial_illness.hallucinations",
-   "First 4 Weeks Symptom: HeadAche" : "symptoms_initial_illness.headAches",
-   "First 4 Weeks Symptom: Hot Flashes" : "symptoms_initial_illness.hotFlashes",
-   "First 4 Weeks Symptom: Irregular Pulse" : "symptoms_initial_illness.irregularPulse",
-   "First 4 Weeks Symptom: Itchy/Red/Dry Eyes" : "symptoms_initial_illness.itchyRedDryEyes",
-   "First 4 Weeks Symptom: First 4 Weeks Symptom: Loss of Appetite" : "symptoms_initial_illness.lossOfAppetite",
-   "First 4 Weeks Symptom: Loss of Smell and/or Taste" : "symptoms_initial_illness.lossOfSmelltaste",
-   "First 4 Weeks Symptom: Nausea" : "symptoms_initial_illness.nausea",
-   "First 4 Weeks Symptom: Numbness" : "symptoms_initial_illness.numbness",
-   "First 4 Weeks Symptom: Rashes" : "symptoms_initial_illness.rash",
-   "First 4 Weeks Symptom: Sore Throat" : "symptoms_initial_illness.soreThroat",
-   "First 4 Weeks Symptom: Stuffy Nose" : "symptoms_initial_illness.stuffyNose",
-   "First 4 Weeks Symptom: Vomiting" : "symptoms_initial_illness.vomiting",
+   //"Covid-19 Symptom: Abdominal Pain" : "symptoms_initial_illness.abdominalPain",
+  // "Covid-19 Symptom: Blurred Vision" : "symptoms_initial_illness.blurredVision",
+   "Covid-19 Symptom: Blisters" : "symptoms_initial_illness.blisters",
+   "Covid-19 Symptom: Breathing Issues" : "symptoms_initial_illness.breathingIssues",
+   "Covid-19 Symptom: Chest Pain" : "symptoms_initial_illness.chestPainTightness",
+   "Covid-19 Symptom: Forgetfulness" : "symptoms_initial_illness.forgetfulness",
+   "Covid-19 Symptom: Confusion" : "symptoms_initial_illness.confusion",
+   "Covid-19 Symptom: Cough" : "symptoms_initial_illness.cough",
+   "Covid-19 Symptom: Delayed Thinking" : "symptoms_initial_illness.delayedthinking",
+   "Covid-19 Symptom: Depression/Anxiety" : "symptoms_initial_illness.depressionAnxiety",
+   "Covid-19 Symptom: Diarrhea" : "symptoms_initial_illness.diarrhea",
+   "Covid-19 Symptom: Difficulty Sleeping" : "symptoms_initial_illness.difficultSleepy",
+   "Covid-19 Symptom: Difficulty Speaking" : "symptoms_initial_illness.difficultySpeaking",
+   "Covid-19 Symptom: Fatigue" : "symptoms_initial_illness.fatigue",
+   "Covid-19 Symptom: Fever" : "symptoms_initial_illness.fever",
+   //"Covid-19 Symptom: Hallucinations" : "symptoms_initial_illness.hallucinations",
+   "Covid-19 Symptom: HeadAche" : "symptoms_initial_illness.headAches",
+   //"Covid-19 Symptom: Hot Flashes" : "symptoms_initial_illness.hotFlashes",
+   "Covid-19 Symptom: Itchy Swollen Skin" : "symptoms_initial_illness.itchySwollenSkin",
+   "Covid-19 Symptom: Itchy/Red/Dry Eyes" : "symptoms_initial_illness.itchyRedDryEyes",
+   "Covid-19 Symptom: Loss of Appetite" : "symptoms_initial_illness.lossOfAppetite",
+   "Covid-19 Symptom: Loss of Smell and/or Taste" : "symptoms_initial_illness.lossOfSmelltaste",
+   "Covid-19 Symptom: Muscle/Body Pain" : "symptoms_initial_illness.muscleBodyPain",
+   "Covid-19 Symptom: Nausea/ Vomiting" : "symptoms_initial_illness.nauseaVomiting",
+   "Covid-19 Symptom: Stomachache" : "symptoms_initial_illness.stomachAche",
+   "Covid-19 Symptom: Palpitations" : "symptoms_initial_illness.palpitations",
+   "Covid-19 Symptom: Poor Concentration" : "symptoms_initial_illness.poorconcentration",
+   "Covid-19 Symptom: Sore Throat" : "symptoms_initial_illness.soreThroat",
+   "Covid-19 Symptom: Rash" : "symptoms_initial_illness.rash",
+   "Covid-19 Symptom: Runny Stuffy Nose" : "symptoms_initial_illness.runnyStuffyNose",
+   "Covid-19 Symptom: Ulcers/Sores" : "symptoms_initial_illness.ucersSores",
 
-  /* Initial Illness Symptom */
+  /* Ongoing Illness Symptom */
+    /*
    "After 4 Weeks Symptom: Abdominal Pain" : "symptoms_ongoing_illness.abdominalPain",
    "After 4 Weeks Symptom: Blurred Vision" : "symptoms_ongoing_illness.blurredVision",
    "After 4 Weeks Symptom: Body Pain" : "symptoms_ongoing_illness.bodyPain",
@@ -122,7 +132,7 @@ class AdminController extends GetxController {
    "After 4 Weeks Symptom: Nausea" : "symptoms_ongoing_illness.nausea",
    "After 4 Weeks Symptom: Numbness" : "symptoms_ongoing_illness.numbness",
    "After 4 Weeks Symptom: Poor Concentration" : "symptoms_ongoing_illness.poorConcentration",
-
+*/
   /* Survey Results */
   "CFQ - Q#1: Do you read something and find you haven't been thinking about it and must read it again?" : "survey_results.0.rating",
   "CFQ - Q#2: Do you find you forget why you went from one part of the house to the other?" : "survey_results.1.rating",
@@ -207,8 +217,27 @@ class AdminController extends GetxController {
       for (String key in row) {
         dynamic data = "null";
         try {
-          data = userDoc[headers[key]??""];
+          if(key != "Diet" && key != "Medical Condition")
+           {
+             data = userDoc[headers[key]??""];
+           } else {
+            debugPrint("key: $key");
+            List<dynamic> dataArray = userDoc[headers[key]??""];
+
+            for(int i = 0; i < dataArray.length; i++) {
+              if ( dataArray[i] != "") {
+                if (data != "null") {
+                  data += "+\n " ;
+                } else {
+                  data = "";
+                }
+                debugPrint("Is it parsing? or nah?");
+                data += dataArray[i].toString();
+              }
+            }
+          }
         } catch (e) {
+          debugPrint("Parsing Value error: $e");
           data = "null";
         }
         userData.add(data);
@@ -217,9 +246,9 @@ class AdminController extends GetxController {
     }
 
     String csvData = const ListToCsvConverter().convert(rows);
-    String? dir = "/storage/emulated/0/Download/";//(await getExternalStorageDirectory())?.path;
+    String? dir = "/storage/emulated/0/Download";//(await getExternalStorageDirectory())?.path;
 
-    final filePath = '$dir/MOCA_Users_Data.csv';
+    final filePath = '$dir/CogQuest_Users_Data.csv';
 
     File file = File(filePath);
     await file.writeAsString(csvData).whenComplete(() {
@@ -351,7 +380,26 @@ class AdminController extends GetxController {
 
       for (String key in row) {
         try {
-          userData.add(_userDoc?.docs.last[headers[key] ?? ""]);
+          if(key != "Diet" && key != "Medical Condition") {
+            userData.add(_userDoc?.docs.last[headers[key] ?? ""]);
+          } else {
+            debugPrint("Did it recognize me???? $key");
+            List<dynamic> dataArray = _userDoc?.docs.last[headers[key] ?? ""];
+            dynamic data = "null";
+            for(int i = 0; i < dataArray.length; i++) {
+              if ( dataArray[i] != "") {
+                if (data != "null") {
+                  data += "+\n " ;
+                } else {
+                  data = "";
+                }
+
+                debugPrint("Is it parsing? or nah?");
+                data += dataArray[i].toString();
+              }
+            }
+            userData.add(data);
+          }
         } catch (e) {
           userData.add("null");
         }
@@ -359,9 +407,9 @@ class AdminController extends GetxController {
 
       rows.add(userData);
       String csvData = const ListToCsvConverter().convert(rows);
-      String? dir = "/storage/emulated/0/Download/";
+      String? dir = "/storage/emulated/0/Download";
 
-      final filePath = '$dir/MOCA_${_userDoc?.docs
+      final filePath = '$dir/CogQuest_${_userDoc?.docs
           .last["user_info.email"]}.csv';
 
       File file = File(filePath);
