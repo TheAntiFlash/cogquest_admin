@@ -174,7 +174,7 @@ class AdminController extends GetxController {
   "Delayed Recall Score" : "results.delayedRecalltest",
   "Language Test 1" : "results.languagetest1",
   "Language Test 2" : "results.languagetest2",
-  "Memory Test" : "results.memorytest",
+  //"Memory Test" : "results.memorytest",
   "Visuoconstructional Skill: Cube Drawing Score" : "results.viscospatialtest2",
   "Visuoconstructional Skill: Clock Drawing Score" : "results.visuospatialdrawclock",
 
