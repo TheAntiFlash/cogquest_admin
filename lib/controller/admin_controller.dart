@@ -49,6 +49,7 @@ class AdminController extends GetxController {
     "Name" : "user_info.name" ,
     "Email" : "user_info.email",
     "Total Score" : "results.totalscore",
+    "CFQ Score" : "results.cfqScore",
 
   /* Social Demographic Headers */
     "Age" : "socio_demographic.age",
